@@ -371,7 +371,7 @@ body{
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    justify-content:space-between;
+    justify-content:center;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-style: normal;
@@ -379,7 +379,8 @@ body{
     line-height: 24px;
     letter-spacing: 0.4px;
     margin-bottom: 20px;
-    
+    background:gray;
+    align-item:center;
 
     /*
     display:flex;
@@ -579,28 +580,40 @@ body{
 
     display:flex;
     justify-content:space-around;
-    font-size:16px;
+    border: 2px dashed black;
+    border-radius:8px;
+    padding:20px;
+    margin-right:20px;
     margin-bottom:20px;
     padding-top:32px;
 }
-.team-social svg{
+.svg{
     fill:white;
+
     display:flex;
     display:inline-flex;
-    background-color: var(red);
+    background-color: var(blue);
     border-radius:50%;
+    padding:20px;
+    margin:5px;
 
 }
 /*CUSTOMER*/
 .company{
-    display:flex;
+    /*display:flex;
     width:1440;
     height:780;
     background-color:var(--ocean);
-    padding:1440px;
+    padding:1440px;*/
+
+    border: 2px solid black;
+    border-radius:8px;
+    padding:20px;
+    margin-right:20px;
+    
 }
 .office{
-    /*background-image: url('../images/people.png');*/
+    background-image: url('../images/people.png');
      background-repeat:no-repeat;
      background-position: center;
      background-attachment: fixed;
@@ -613,7 +626,11 @@ body{
 
 }  
 .icon-list{
-    justify-content:center;
+    border: 2px solid black;
+    border-radius:8px;
+    padding:20px;
+    margin-right:20px;
+
 }
 .project{
     display:flex;
@@ -624,17 +641,41 @@ body{
     width:1140px;
     height:2076px;
 } 
-.team-social1 svg{
+.team-social svg{
     display:flex;
     fill:white;
     display:flex;
     display:inline-flex;
-    background-color: var(red);
+    background-color: var(--IRIS));
     border-radius:50%;
-    padding:200px 200px;
+    padding:20px 20px;
     font-size:36px;
     align-items:center;
-    justify-content:center;
-    margin-top:100px;
+    justify-content:space-around;
+    margin-top:10px;
     align-content:center;
+}
+.icon1{
+    border: 2px solid black;
+    border-radius:8px;
+    padding:20px;
+    margin-right:20px;
+}
+.team-social{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+   
+   
+}
+.alpha{
+    display:flex;
+    background-color:var(--IRIS);
+    fill:white;
+    padding:15px;
+    margin:24px;
+    border-radius:50px;
+    height:40px;
+    width:40px
+    justify-content:center;
 }
