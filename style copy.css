@@ -85,6 +85,7 @@ body{
     letter-spacing: 0.32px;
     width: 264px;
 }
+
 */
 .list{
     display:flex;
@@ -219,13 +220,14 @@ body{
     align-items:left;
     width:1440px;
     height:200px;
-    justify-content:left;
     flex-shrink:0;
     padding-top:10px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;color: var(--CLOUD, #F4F4FD);
     margin:200px auto 0 auto;
+    font-size:16px;
+    padding-left:50px;
 }
 .hero-btn{
     display: inline-flex;
@@ -366,7 +368,6 @@ body{
     display:flex;
     display:flex-start;
     max-width: 1140px;
-   
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -386,7 +387,6 @@ body{
     align-items:baseline;
     flex-direction:row;
     flex-wrap:nowrap;
-
     justify-content:space-evenly;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
@@ -394,11 +394,8 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-
     letter-spacing: 0.4px;
     margin-bottom: 20px;*/
-
-  
 }
 .title-des{
     text-align: center;
@@ -406,9 +403,7 @@ body{
     margin-bottom: 20px;
     margin-left:20px;
     font-size:20px;
-
 }
-
 .des{
  
     color:var(--SLATE, #434455);
@@ -428,7 +423,6 @@ body{
     font-size: 16px;
     line-height: 24px; 
     letter-spacing: 1.5px;
-
 }
 .btn-button1{
     cursor:pointer;
@@ -461,25 +455,23 @@ body{
     align-self:center;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 0;
     line-height: 24px; 
     letter-spacing: 0.64px;
    /* display:inline-flex; */
     padding: 12px 24px;
     align-items: center;
     justify-content:center;
-    gap:100px;
     border-radius:4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .web-logo{
-    display: flex;
-    width: 44px;
-    height: 21px;
+    display:flex;
+    width:44px;
+    height:21px;
     flex-direction: column;
     justify-content: center;
-
     color: var(--IRIS, #4D5AE5);
     font-family:Roboto;
     font-size: 18px;
@@ -523,8 +515,6 @@ body{
     gap:24px;
     text-align:center;
 }
-
-
 /*
 .h4{
     display:flex;
@@ -572,8 +562,7 @@ body{
     justify-content:center;
     margin-top:100px;
     margin-bottom:72px;
-    gap:24px;
-    
+    gap:24px;   
 }
 .icon{
     display:flex;
@@ -594,7 +583,6 @@ body{
     margin-bottom:20px;
     padding-top:32px;
 }
-
 .team-social svg{
     fill:white;
     display:flex;
@@ -610,10 +598,10 @@ body{
     height:780;
     background-color:var(--ocean);
     padding:1440px;
-
 }
 .office{
-    background-repeat:no-repeat;
+    /*background-image: url('../images/people.png');*/
+     background-repeat:no-repeat;
      background-position: center;
      background-attachment: fixed;
      background-size:cover;
@@ -621,6 +609,7 @@ body{
      height:600px;
      justify-content: center;
      flex-shrink: 0;
+     padding:188px 188px;
 
 }  
 .icon-list{
@@ -635,3 +624,17 @@ body{
     width:1140px;
     height:2076px;
 } 
+.team-social1 svg{
+    display:flex;
+    fill:white;
+    display:flex;
+    display:inline-flex;
+    background-color: var(red);
+    border-radius:50%;
+    padding:200px 200px;
+    font-size:36px;
+    align-items:center;
+    justify-content:center;
+    margin-top:100px;
+    align-content:center;
+}
