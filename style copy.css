@@ -15,7 +15,7 @@
     text-transform: uppercase;
 }
 .studio-logo{
-    color: var( #2E2F42);
+    color: var(#2E2F42);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -34,8 +34,6 @@
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    
-
 }
 body{
     font-family:"Roboto"
@@ -102,6 +100,7 @@ body{
     margin-left:5px;
     margin-top:20px; 
     
+    
 }
 .nav.nav{
     font weight:500px;
@@ -130,8 +129,11 @@ body{
 }
 .solution{
     display:flex;
-    color: var(--WHITE, #FFF);
+    color: var(--NAVY-BLUE);
     text-align: center;
+    align-items: center;
+    align-content:center;
+
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -140,7 +142,6 @@ body{
     letter-spacing: 1.12px;
     padding:100px 200px 50px;
     justify-content:center;
-  
     Text-transform:uppercase;
 }
 .hero{
@@ -256,9 +257,21 @@ body{
     gap:1px;
 }
 .list-2{
-    display:flex;
+    /*display:flex;
     gap:5px;
-    justify-content:flex-start;
+    font-size:24px;
+    margin-top:20px;
+    justify-content:flex-start;*/
+
+    display:flex;
+    gap:10px;
+    justify-content:space-between;
+    align-items:left;
+    display:inline-flex;
+    margin-top:20px;
+    font-size:24px;
+
+    
 
 }
 .nav-list{
@@ -393,7 +406,7 @@ body{
     letter-spacing: 0.4px;
     margin-bottom: 20px;
     background:gray;
-    align-item:center;
+    align-items:center;
 
     /*
     display:flex;
@@ -415,7 +428,7 @@ body{
     text-align: center;
     justify-content:center;
     margin-bottom: 20px;
-    margin-left:20px;
+    margin-left:5px;
     font-size:20px;
 }
 .des{
@@ -461,12 +474,10 @@ body{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .btn-button{
-    cursor:pointer;
+   /* cursor:pointer;
     display:flex;
     color: var(--WHITE,#FFF);
-    text-align:center;
     align-content:center;
-    align-self:center;
     font-size: 16px;
     font-style: normal;
     font-weight: 0;
@@ -474,10 +485,35 @@ body{
     letter-spacing: 0.64px;
     width:1440px;
     height:600px;
+    margin-left:500px;
+    margin-right:400px;
    /* display:inline-flex; */
+    
+   /*padding: 40px 60px;
+    gap:100px;
+    align-items: center;
+    justify-content:center;
+    border-radius:4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);*/
+
+    cursor:pointer;
+    display:flex;
+    color: var(--WHITE,#FFF);
+    text-align:center;
+    align-content:center;
+    align-self:center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px;
+    display:inline-flex;
     padding: 12px 24px;
     align-items: center;
     justify-content:center;
+    gap:100px;
     border-radius:4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
@@ -637,9 +673,15 @@ body{
      width:1440px;
      height:600px;
      justify-content:center;
-     flex-shrink: 0;
+     flex-shrink:0;
      padding-top:188px;
      padding-bottom: 188px;
+     align-items:center;
+     align-content:center;
+     
+     padding-top: 100px;
+     text-align:center;
+     margin:0 auto;
 
 }  
 .icon-list{
