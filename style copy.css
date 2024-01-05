@@ -336,7 +336,6 @@ body{
     margin-left: 200px;
     /*color: var(--NAVY-BLUE, #2E2F42);*/
     text-align: center;
-
     font-size: 30px;
     font-style: normal;
     font-weight: 500px;
@@ -358,9 +357,9 @@ body{
     line-height: 25px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    height:1400px;
+   
     width:780px;
-    padding-bottom:400px;
+    padding-bottom:50px;
 
     
 }
@@ -408,6 +407,7 @@ body{
     align-items:center;
     width:1440px;
     height:600px;
+    overflow:hidden;
 
     /*
     display:flex;
@@ -428,9 +428,11 @@ body{
 .title-des{
     text-align: center;
     justify-content:center;
+    margin-top:5px;
     margin-bottom: 20px;
     margin-left:5px;
     font-size:20px;
+    
 }
 .des{
  
@@ -625,6 +627,7 @@ body{
 }
 .icon{
     display:flex;
+    display:inline-flex;
     align-items:center;
     justify-content:center;
     padding-top:10px;
@@ -691,6 +694,10 @@ body{
      padding-top: 100px;
      text-align:center;
      margin:0 auto;
+     overflow:hidden;
+     position:relative;
+     object-fit:fill;
+    
 
 }  
 .icon-list{
@@ -746,4 +753,14 @@ body{
     height:40px;
     width:40px
     justify-content:center;
+}
+.overlay{
+    position:absolute;
+    height:100%;
+    weight:100%;
+
+}
+.worktodo{
+    display:flex;
+
 }
