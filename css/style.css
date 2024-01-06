@@ -95,7 +95,7 @@ body{
     margin-top:20px;
     font-size:20px;
 }
-.list-1{
+.list-1{av
     display:flex;
     display:inline-flex;
     margin-left:5px;
@@ -211,7 +211,7 @@ body{
 }
 .bg-dark{
     
-    background-image:url();
+    background:var(--NAVY-BLUE, #2E2F42);
     text-align:left;
     align-items:left;
     width:1440px;
@@ -273,7 +273,6 @@ body{
 */
 .hero-btn:hover{
     cursor:pointer;
-
     background-color:var (--WHITE, #FFF);
 }
 .card-container{
@@ -380,7 +379,7 @@ body{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 
     margin-top:5px;
     background:white;
