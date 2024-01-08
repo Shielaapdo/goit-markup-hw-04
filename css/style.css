@@ -725,7 +725,8 @@ body{
 .icon-Logo {
         width: 1.857421875em;
         height:104px;
-        width:56px;
+        border:5px solid gray;
+        padding:5px;
         margin:5px;
         gap:24px;
 }
@@ -737,9 +738,10 @@ body{
     gap:24px;
   }
 .icon-Client-2 {
+    display:flex;
+    background:gray;
     width: 1.9091796875em;
     height:104px;
-    width:56px;
     margin:5px;
     gap:24px;
   }
