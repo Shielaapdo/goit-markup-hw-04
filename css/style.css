@@ -421,8 +421,10 @@ body{
 .title-des{
     text-align: center;
     justify-content:center;
-    margin-bottom: 5px;
+    margin-bottom:2px;
     margin-left:20px;
+    padding-top:10px;
+    justify-content:space-around;
 }
 
 .des{
@@ -618,18 +620,21 @@ body{
     object-fit:fill;
 }  
 
-.icon{
+.icons{
     display:flex;
     display:inline-flex;
     align-items:center;
     justify-content:center;
     padding-top:2px;
-    padding-bottom:5px;
     text-align:center;
-    width:1140px;
-    margin-left:0 auto;
-    margin-right: 0 auto;
+    width:1800px;
+    margin-left:5px;
+    margin-right:5px;
     margin-top:2px;
+    gap:50px;
+    margin-bottom:2px;
+    border:30px solid gray;
+    flex-wrap:wrap
 }
 .alpha{
     display:flex;
@@ -658,13 +663,15 @@ body{
 }
 .icon-list{
     display:flex;
-    border: 2px solid rgb(249, 242, 242);
+    gap:24px;
+    align-items:center;
+    justify-content: center;
+    font-size:30px;
     height:20px;
     border-radius:8px;
     padding:20px;
     margin-right:10px;
     margin-top:200px;
-    background-color:blue;
     list-style:none;
 }
 
@@ -688,9 +695,6 @@ body{
     padding:10px;
     margin:2px;
     border-radius:50px;
- 
-   /* height:30px;
-    width:30px*/
     justify-content:center;
     align-items:center;
 }
@@ -702,29 +706,47 @@ body{
     margin-top: 1px;
 }
 .iconfooter{
-    display:flex;
-    
+    display:flex;  
     align-items:center;
     justify-content:center;
-
     align-self:auto;
     align-content:center;
 
 }
-/*
-.team-social{
-    display:flex;
-    background-color:var(--IRIS);
-    fill:white;
-    background-color: blue;
-    padding:10px;
-    margin:2px;
-    border-radius:50px;
-   /* height:30px;
-    width:30px*/
-    justify-content:center;
-    align-items:center;
+.icon{
+        display:inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width:0;
+        stroke:currentColor;
+        fill:currentColor;
+   
 }
-*/
-
-
+.icon-Logo {
+        width: 1.857421875em;
+        height:104px;
+        width:56px;
+        margin:5px;
+        gap:24px;
+}
+.icon-Client-6 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    gap:24px;
+  }
+.icon-Client-2 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    gap:24px;
+  }
+.icon-Client-3 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    gap:24px;
+  }
