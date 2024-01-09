@@ -625,7 +625,8 @@ body{
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    padding-top:2px;
+    padding-top:20px;
+    padding-bottom:20px;
     text-align:center;
     width:1800px;
     margin-left:5px;
@@ -633,8 +634,9 @@ body{
     margin-top:2px;
     gap:50px;
     margin-bottom:2px;
-    border:30px solid gray;
-    flex-wrap:wrap
+    /*border:30px solid gray;*/
+    flex-wrap:wrap;
+    background:gray;
 }
 .alpha{
     display:flex;
@@ -730,16 +732,10 @@ body{
         margin:5px;
         gap:24px;
 }
-.icon-Client-6 {
-    width: 1.9091796875em;
-    height:104px;
-    width:56px;
-    margin:5px;
-    gap:24px;
-  }
-.icon-Client-2 {
+.icon.icon-Client-2 {
     display:flex;
-    background:gray;
+    border:5px solid gray;
+    padding:5px;
     width: 1.9091796875em;
     height:104px;
     margin:5px;
@@ -750,5 +746,34 @@ body{
     height:104px;
     width:56px;
     margin:5px;
+    gap:24px;
+    border:5px solid gray;
+    padding:5px;
+  }
+  .icon-Client-4 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    gap:24px;
+    border:5px solid gray;
+    padding:5px;
+  }
+  .icon-Client-5 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    gap:24px;
+    border:5px solid gray;
+    padding:5px;
+  }
+  .icon-Client-6 {
+    width: 1.9091796875em;
+    height:104px;
+    width:56px;
+    margin:5px;
+    border:5px solid gray;
+    padding:5px;
     gap:24px;
   }
