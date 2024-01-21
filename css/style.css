@@ -162,6 +162,13 @@ body{
      letter-spacing: 0.72px;
      text-transform: capitalize
 }
+.what{
+    
+    width: 1440px;
+    height: 500px;
+    background-color:#F4F4FD;
+
+}
 .image{
     display:flex;
     display: inline-flex;
@@ -444,6 +451,7 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 40px; 
+    padding-top:30px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     
