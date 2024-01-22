@@ -148,7 +148,7 @@ body{
     height: 500px;
     background-color:#F4F4FD;
     align-items:center;
-    margin-left:26px;
+    margin-left:205px;
 
 }
 .image{
@@ -198,7 +198,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;color: var(--CLOUD, #F4F4FD);
-    margin:100px auto 0 25px;
+    margin:100px auto 0 205px;
 }
 .hero-btn{
     display: inline-flex;
@@ -379,7 +379,7 @@ body{
     height: 780px;
     margin-top:100px;
     align-items:16px;
-    margin-left:25px;
+    margin-left:205px;
     background-color: rgb(246, 243, 243);
 }
 .team{
@@ -404,7 +404,7 @@ body{
     display:flex;
     display:inline-flex;
     padding: 5px;
-    margin-left: 16px;
+    margin-left: 205px;
     margin-right: 0 auto;
     justify-content:space-between;
     color: var(--NAVY-BLUE, #2E2F42);
@@ -424,7 +424,7 @@ body{
 .descript{
     display:flex;
     display:inline-flex;
-    margin-left:8px; 
+    margin-left:205px; 
 }
 .title-des{
     text-align:left;
@@ -888,6 +888,7 @@ body{
     text-align:center;
     width:1140px;
     height:400px;
+    margin-left:205px;
   }
   .custo{
     display:flex; 
