@@ -188,7 +188,7 @@ body{
     background:var(--NAVY-BLUE, #2E2F42);
     text-align:left;
     align-items:left;
-    width:1440px;
+    width:1250px;
     height:200px;
     justify-content:left;
     flex-shrink:0;
@@ -196,7 +196,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;color: var(--CLOUD, #F4F4FD);
-    margin:200px auto 0 auto;
+    margin:100px auto 0 auto;
 }
 .hero-btn{
     display: inline-flex;
@@ -672,11 +672,11 @@ body{
     height:2px;
     border-radius:20px;
     padding:5px;
-    margin-right:800px;
+    margin-right:50px;
     gap:30px;
     margin-top:2px;
     list-style:none;
-    margin-left:80px;
+    margin-left:50px;
     Width:1440px;
 }
 
