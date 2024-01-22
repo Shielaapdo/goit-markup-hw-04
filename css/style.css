@@ -146,7 +146,7 @@ body{
     
     width: 1440px;
     height: 500px;
-    background-color:#F4F4FD;
+    /*background-color:#f8f8fb;*/
     align-items:center;
     margin-left:205px;
 
@@ -164,7 +164,12 @@ body{
     margin:15px;
     margin-top:10px;
     padding-top:50px;
-    
+    /*background: var(--CORNFLOWER, #E7E9FC);
+    background-color:#F4F4FD;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:100px;
+    padding-bottom:150px; */
 }
 .img2{
     display:flex;
@@ -257,6 +262,7 @@ body{
     display:inline-flex;
     width:1440px;
     height: 1800px;
+    background: var(--CLOUD, #F4F4FD);
 }
 .img card{
     display:flex;
@@ -271,7 +277,7 @@ body{
     font-size:20px;
     width:264px;
     height:200px;
-    background-color:#F4F4FD;
+    background: var(--WHITE, #FFF);
     padding-left:20px;
     padding-right:20px;
     padding-top:3px;
@@ -287,7 +293,7 @@ body{
     font-size:20px;
     width:264px;
     height:200px;
-    background-color:#F4F4FD;
+    background: var(--WHITE, #FFF);
     padding-left:20px;
     padding-right:20px;
     padding-top:2px;
@@ -303,7 +309,7 @@ body{
     font-size:20px;
     width:264px;
     height:200px;
-    background-color:#F4F4FD;
+    background: var(--WHITE, #FFF);
     padding-left:20px;
     padding-right:20px;
     padding-top:2px;
@@ -319,7 +325,7 @@ body{
     font-size:20px;
     width:264px;
     height:200px;
-    background-color:#F4F4FD;
+    background: var(--WHITE, #FFF);
     padding-left:20px;
     padding-right:20px;
     padding-top:2px;
